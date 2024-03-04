@@ -29,7 +29,7 @@ const Contact = () => {
       );
   };
   return (
-    <section className="py-16 pt-56 section" id="contact">
+    <section className="py-16 lg:pt-56 section" id="contact">
       <div className="container mx-auto flex-col flex lg:flex-row">
         <div className="flex-1 flex-col lg:flex-row">
           <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">
