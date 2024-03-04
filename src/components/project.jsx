@@ -2,7 +2,7 @@ import Project1 from "../assets/portfolio-img1.png";
 
 const Project = () => {
   return (
-    <section className="section pt-48" id="project">
+    <section className="section lg:pt-48" id="project">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
