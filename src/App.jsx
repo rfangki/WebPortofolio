@@ -7,14 +7,14 @@ import Project from "./components/project";
 
 const Home = () => {
   return (
-    <div className="flex-col space-y-12 bg-site bg-no-repeat overflow-hidden pb-12">
+    <div className="flex-col space-y-12 bg-site bg-no-repeat overflow-hidden">
       <Header />
       <Hero />
       <Nav />
       <About />
       <Project />
       <Contact />
-      {/* <div className="h-[4000px]"></div> */}
+      <div className="h-[100px]"></div>
     </div>
   );
 };
