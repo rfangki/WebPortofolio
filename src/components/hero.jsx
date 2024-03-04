@@ -11,10 +11,7 @@ const Hero = () => {
             <p className="space-y-5 text-[55px] font-primary font-bold leading-[0.8] lg:text-[60px]">
               RACHMAN FANGKI
             </p>
-            <div className="flex gap-[68px] mb-6 text-[36px] lg:text-[60px] font-semibold uppercase leading-[1]">
-              <p className="text-white mr-0 ml-5 lg:ml-0 lg:mr-4 font-secondary mt-5 lg:mt-0">
-                I am a
-              </p>
+            <div className="flex justify-center mr-0 lg:mr-20 gap-[68px] mb-6 text-[36px] lg:text-[60px] font-semibold uppercase leading-[1]">
               <span>
                 <GlitchText />
               </span>
