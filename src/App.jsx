@@ -7,7 +7,7 @@ import Project from "./components/project";
 
 const Home = () => {
   return (
-    <div className="flex-col space-y-12 bg-site bg-no-repeat overflow-hidden">
+    <div className="flex-col space-y-12 bg-[url('/src/assets/site-bg.jpg')] bg-no-repeat overflow-hidden">
       <Header />
       <Hero />
       <Nav />
