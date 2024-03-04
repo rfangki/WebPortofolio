@@ -14,7 +14,7 @@ const Home = () => {
       <About />
       <Project />
       <Contact />
-      <div className="h-[100px]"></div>
+      <div className="h-[60px]"></div>
     </div>
   );
 };
