@@ -69,3 +69,10 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+@media (max-width: 540px) {
+  .h3 {
+    font-size: 11px;
+    line-height: 30px;
+  }
+}
