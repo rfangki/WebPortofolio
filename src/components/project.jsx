@@ -10,9 +10,11 @@ const Project = () => {
           <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
             <div>
               <h2 className="h2 leading tight text-accent">My Latest Work.</h2>
-              <p className="max-w-sm ">
-                These are some of my best projects. I have built these with
-                React.
+              <p className="max-w-sm text-justify pb-[29px]">
+                I'm activelyinvolved in a myriad of cutting-edge projects, some
+                still unfolding and others already triumphantly completed.
+                Crafting innovative solutions and bringing ideas to life, my
+                latest endeavors showcase the dynamic versatility of React.
               </p>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
