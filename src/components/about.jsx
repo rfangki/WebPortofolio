@@ -22,7 +22,7 @@ const About = () => {
             challenges and enhance user experiences through coding and debugging
             skills.
           </h3>
-          <div className="mt-10 flex gap-14 items-center justify-center">
+          <div className="mt-10 flex gap-8 lg:gap-14 items-center justify-center">
             <img src={HTML} className="w-7 h-7" />
             <img src={CSS} className="w-7 h-7" />
             <img src={JS} className="w-7 h-7" />
