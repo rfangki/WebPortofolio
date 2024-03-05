@@ -42,7 +42,7 @@ const Project = () => {
                   JDIH Musi Rawas Utara
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-700 z-50 mr-10">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-900 z-50 mr-10">
                 <span className="text-sm text-justify">
                   "Embarking on an exciting venture with JDIH Musi Rawas Utara,
                   my <span className="font-bold">ONGOING</span> project is set
@@ -88,7 +88,7 @@ const Project = () => {
                   MyTouristTicket
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-700 z-50 mr-10">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-900 z-50 mr-10">
                 <span className="text-sm cursor-default text-justify">
                   My Capstone project: A visionary web endeavor intricately
                   crafted to revolutionize the ticket booking experience,
@@ -128,7 +128,7 @@ const Project = () => {
                   RedStore
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-700 z-50 mr-10">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-900 z-50 mr-10">
                 <span className="text-sm cursor-default text-justify">
                   A groundbreaking online venture that redefines the art of
                   shopping, boasting an array of cutting-edge features
