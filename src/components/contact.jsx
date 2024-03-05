@@ -42,7 +42,7 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
+          className="flex-1 border rounded-2xl flex flex-col gap-y-6 p-6 items-start"
         >
           <input
             className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
@@ -57,7 +57,7 @@ const Contact = () => {
             name="from_email"
           />
           <textarea
-            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
+            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none"
             placeholder="Your message"
             name="message"
           ></textarea>
