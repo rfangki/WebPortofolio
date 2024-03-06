@@ -31,7 +31,7 @@ const Contact = () => {
       );
   };
   return (
-    <section className="py-16 lg:pt-56 section" id="contact">
+    <section className="py-16 pt-56 lg:pt-56 section" id="contact">
       <div className="container mx-auto">
         <div className="flex-col flex lg:flex-row">
           <motion.div

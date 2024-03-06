@@ -10,7 +10,7 @@ import { fadeIn } from "./variant";
 
 const About = () => {
   return (
-    <section className="section" id="about">
+    <section className="section pt-20 lg:pt-28 xl:pt-40" id="about">
       <div className="container mx-auto">
         <div className="flex-1">
           <motion.h2
