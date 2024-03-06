@@ -1,6 +1,8 @@
 import Paket1 from "../assets/Paket_1.png";
 import Paket2 from "../assets/Paket_2.png";
 import Paket3 from "../assets/Paket_3.png";
+import { motion } from "framer-motion";
+import { fadeIn } from "./variant";
 
 const Project = () => {
   return (
@@ -8,7 +10,13 @@ const Project = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
-            <div>
+            <motion.div
+              variants={fadeIn("right", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+              className="flex-col flex items-center"
+            >
               <h2 className="h2 leading tight text-accent">My Latest Work.</h2>
               <p className="max-w-sm text-justify pb-[29px]">
                 I'm activelyinvolved in a myriad of cutting-edge projects, some
@@ -16,8 +24,14 @@ const Project = () => {
                 Crafting innovative solutions and bringing ideas to life, my
                 latest endeavors showcase the dynamic versatility of React.
               </p>
-            </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("right", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+              className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
+            >
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500 h-72 w-full mix-blend-lighten"
@@ -57,10 +71,16 @@ const Project = () => {
                   regulations published by JDIH Musi Rawas Utara.
                 </span>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className="flex-1 flex flex-col gap-y-8">
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <motion.div
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+              className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
+            >
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500 h-72 w-full mix-blend-lighten"
@@ -99,8 +119,14 @@ const Project = () => {
                   Indonesia's vibrant cities.
                 </span>
               </div>
-            </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("left", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+              className="group relative overflow-hidden border-2 border-white/50 rounded-xl"
+            >
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500 h-72 w-full mix-blend-lighten"
@@ -138,7 +164,7 @@ const Project = () => {
                   to unprecedented heights.
                 </span>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
