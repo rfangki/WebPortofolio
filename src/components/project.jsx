@@ -15,14 +15,12 @@ const Project = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="flex-col flex items-center"
+              className=""
             >
               <h2 className="h2 leading tight text-accent">My Latest Work.</h2>
-              <p className="max-w-sm text-justify pb-[29px]">
+              <p className="max-w-sm lg:pb-[126px]">
                 I'm activelyinvolved in a myriad of cutting-edge projects, some
                 still unfolding and others already triumphantly completed.
-                Crafting innovative solutions and bringing ideas to life, my
-                latest endeavors showcase the dynamic versatility of React.
               </p>
             </motion.div>
             <motion.div
