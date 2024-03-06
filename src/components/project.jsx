@@ -57,7 +57,7 @@ const Project = () => {
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-40 mr-10">
-                <span className="text-[10px] leading-[14px] lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
+                <span className="text-[11px] leading-[14px] lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
                   Embarking on an exciting venture with JDIH Musi Rawas Utara,
                   my <span className="font-bold">ONGOING</span> project is set
                   to revolutionize their document input procedures. While the
@@ -109,7 +109,7 @@ const Project = () => {
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-40 mr-10">
-                <span className="text-[10px] leading-4 lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
+                <span className="text-[11px] leading-4 lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
                   My Capstone project: A visionary web endeavor intricately
                   crafted to revolutionize the ticket booking experience,
                   offering seamless access to an array of captivating tourist
@@ -155,7 +155,7 @@ const Project = () => {
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-40 mr-10">
-                <span className="text-[10px] leading-4 lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
+                <span className="text-[11px] leading-4 lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
                   A groundbreaking online venture that redefines the art of
                   shopping, boasting an array of cutting-edge features
                   meticulously curated to elevate your online shopping journey
