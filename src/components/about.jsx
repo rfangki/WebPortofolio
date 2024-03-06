@@ -52,7 +52,7 @@ const About = () => {
             <img src={TS} className="w-7 h-7" />
             <img src={ReactLogo} className="w-7 h-7" />
             <img src={Tailwind} className="w-7 h-6" />
-            <img src={bootstrap} className="w-11 h-11" />
+            <img src={bootstrap} className="w-10 h-10" />
           </motion.div>
         </div>
       </div>
