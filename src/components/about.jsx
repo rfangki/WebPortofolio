@@ -4,6 +4,7 @@ import JS from "../assets/js.png";
 import TS from "../assets/typescript.png";
 import Tailwind from "../assets/tailwind.png";
 import ReactLogo from "../assets/react.png";
+import bootstrap from "../assets/bootstrap.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "./variant";
 
@@ -43,7 +44,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="mt-10 flex gap-8 lg:gap-14 items-center justify-center"
+            className="mt-10 flex gap-5 lg:gap-14 items-center justify-center"
           >
             <img src={HTML} className="w-7 h-7" />
             <img src={CSS} className="w-7 h-7" />
@@ -51,6 +52,7 @@ const About = () => {
             <img src={TS} className="w-7 h-7" />
             <img src={ReactLogo} className="w-7 h-7" />
             <img src={Tailwind} className="w-7 h-6" />
+            <img src={bootstrap} className="w-11 h-11" />
           </motion.div>
         </div>
       </div>
