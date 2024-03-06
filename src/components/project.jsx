@@ -18,7 +18,7 @@ const Project = () => {
               className=""
             >
               <h2 className="h2 leading tight text-accent">My Latest Work.</h2>
-              <p className="max-w-sm lg:pb-[126px]">
+              <p className="max-w-sm lg:pb-[107px]">
                 I'm activelyinvolved in a myriad of cutting-edge projects, some
                 still unfolding and others already triumphantly completed.
               </p>
@@ -32,10 +32,10 @@ const Project = () => {
             >
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
-                className="group-hover:scale-125 transition-all duration-500 h-72 w-full mix-blend-lighten"
+                className="group-hover:scale-125 transition-all duration-500 h-[270px] w-full mix-blend-lighten"
                 src={Paket3}
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-[184px] flex gap-x-10 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-[184px] flex gap-x-10 transition-all duration-500 z-40">
                 <a
                   href="https://jdihmusirawasutara.com/"
                   target="_blank"
@@ -51,14 +51,14 @@ const Project = () => {
                   <div className="font-bold font-primary">Code</div>
                 </a>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-[152px] flex gap-x-10 transition-all duration-700 z-50">
-                <span className="text-3xl text-white cursor-default">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-[152px] flex gap-x-10 transition-all duration-700 z-40">
+                <span className="text-xl lg:text-3xl text-white cursor-default">
                   JDIH Musi Rawas Utara
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-50 mr-10">
-                <span className="text-sm text-justify">
-                  "Embarking on an exciting venture with JDIH Musi Rawas Utara,
+              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-40 mr-10">
+                <span className="text-[10px] leading-[14px] lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
+                  Embarking on an exciting venture with JDIH Musi Rawas Utara,
                   my <span className="font-bold">ONGOING</span> project is set
                   to revolutionize their document input procedures. While the
                   current UI and features are in the early stages, offering a
@@ -81,10 +81,10 @@ const Project = () => {
             >
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
-                className="group-hover:scale-125 transition-all duration-500 h-72 w-full mix-blend-lighten"
+                className="group-hover:scale-125 transition-all duration-500 h-[270px] w-full mix-blend-lighten"
                 src={Paket2}
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-[124px] flex gap-x-10 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-[124px] flex gap-x-10 transition-all duration-500 z-40">
                 <a
                   href="https://my-tourist-tiket.vercel.app/"
                   target="_blank"
@@ -103,13 +103,13 @@ const Project = () => {
                 </a>
               </div>
 
-              <div className="absolute -bottom-full left-12 group-hover:bottom-[93px] flex gap-x-10 transition-all duration-700 z-50">
-                <span className="text-3xl text-white cursor-default">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-[93px] flex gap-x-10 transition-all duration-700 z-40">
+                <span className="text-xl lg:text-3xl text-white cursor-default">
                   MyTouristTicket
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-50 mr-10">
-                <span className="text-sm cursor-default text-justify">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-40 mr-10">
+                <span className="text-[10px] leading-4 lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
                   My Capstone project: A visionary web endeavor intricately
                   crafted to revolutionize the ticket booking experience,
                   offering seamless access to an array of captivating tourist
@@ -127,10 +127,10 @@ const Project = () => {
             >
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
-                className="group-hover:scale-125 transition-all duration-500 h-72 w-full mix-blend-lighten"
+                className="group-hover:scale-125 transition-all duration-500 h-[270px] w-full mix-blend-lighten"
                 src={Paket1}
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-28 flex gap-x-10 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-28 flex gap-x-10 transition-all duration-500 z-40">
                 <a
                   href="https://e-commerce-seven-coral.vercel.app/"
                   target="_blank"
@@ -149,13 +149,13 @@ const Project = () => {
                 </a>
               </div>
 
-              <div className="absolute -bottom-full left-12 group-hover:bottom-[76px] flex gap-x-10 transition-all duration-700 z-50">
-                <span className="text-3xl text-white cursor-default">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-[76px] flex gap-x-10 transition-all duration-700 z-40">
+                <span className="text-xl xl:text-3xl text-white cursor-default">
                   RedStore
                 </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-50 mr-10">
-                <span className="text-sm cursor-default text-justify">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-3 flex gap-x-10 transition-all duration-1000 z-40 mr-10">
+                <span className="text-[10px] leading-4 lg:leading-[16px] lg:text-[12px] xl:text-sm text-justify cursor-default">
                   A groundbreaking online venture that redefines the art of
                   shopping, boasting an array of cutting-edge features
                   meticulously curated to elevate your online shopping journey
