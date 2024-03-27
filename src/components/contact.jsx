@@ -6,9 +6,11 @@ import { fadeIn } from "./variant";
 const Contact = () => {
   const form = useRef();
   const [isSuccess, setIsSuccess] = useState(null);
+  const [isSending, setIsSending] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsSending(true);
 
     emailjs
       .sendForm("service_nftchtg", "template_yik5rvs", form.current, {
@@ -17,6 +19,7 @@ const Contact = () => {
       .then(
         () => {
           setIsSuccess(true);
+          e.target.reset();
           setTimeout(() => {
             setIsSuccess(null);
           }, 3000);
@@ -28,7 +31,10 @@ const Contact = () => {
             setIsSuccess(null);
           }, 3000);
         }
-      );
+      )
+      .finally(() => {
+        setIsSending(false);
+      });
   };
   return (
     <section className="py-16 pt-56 lg:pt-56 section" id="contact">
@@ -64,20 +70,23 @@ const Contact = () => {
               type="text"
               placeholder="Your name"
               name="from_name"
+              required
             />
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="email"
               placeholder="Your email"
               name="from_email"
+              required
             />
             <textarea
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none"
               placeholder="Your message"
               name="message"
+              required
             ></textarea>
-            <button type="submit" value="Send" className="btn btn-lg">
-              Send message
+            <button type="submit" className="btn btn-lg" disabled={isSending}>
+              {isSending ? "Wait a moment" : "Send message"}
             </button>
           </motion.form>
         </div>
